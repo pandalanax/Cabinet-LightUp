@@ -37,5 +37,6 @@ Using the transistor alone didn't help to completely shut down the WS2812 strip.
 
 - [ ] add schematic
 - [ ] create pcb
-
+- [ ] upload hex file to flash via avrdude 
+- [ ] upload minicore settings to flash via avrdude
 
