@@ -1,5 +1,7 @@
 # Cabinet-LightUp
 
+![photo of circuit](https://imgur.com/a/la2JHib)
+
 ## Components
 - WS2812 Strip with 30 LEDs
 - Reed Switch
@@ -25,3 +27,5 @@ The nanos voltage regulator uses a lot of energy, therefore i removed the regula
 
 ## Circuit
 Using the transistor alone didn't help to completely shut down the WS2812 strip. Found this helpful [thread](https://forum.pjrc.com/threads/24407-Strange-WS2812-NeoPixel-backfeed-current-FYIO) which suggested using a diode to eliminate the backfeeding problem through DATA channel.
+
+
