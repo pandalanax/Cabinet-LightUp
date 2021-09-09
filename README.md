@@ -16,7 +16,7 @@
 - 1 Battery Case
 
 ## Arduino Nano Modifications
-After Modification usage of the USB Port of the Nano could damage it. I reprogram the Nano via ICSP Pins with 3.3v.
+After Modification, the usage of the USB port of the Nano could damage it. I program the Nano via ICSP Pins with 3.3v.
 
 #### Core
 The Core was changed to [Minicore](https://github.com/MCUdude/MiniCore). Underclocked the Nano to 8Mhz using internal oscillator. 
