@@ -1,6 +1,6 @@
 # Cabinet-LightUp
 
-![photo of circuit](https://imgur.com/a/la2JHib)
+![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/lightup.gif)
 
 ## Components
 - WS2812 Strip with 30 LEDs
