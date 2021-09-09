@@ -2,6 +2,11 @@
 
 ![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/lightup.gif)
 
+
+|         | SLEEP         | ON    |
+|:-------------:|:-------------:| -----:|
+| Current Consumption     | 400 µA | ~78mA |
+
 ## Components
 - WS2812 Strip with 30 LEDs
 - Reed Switch
@@ -10,7 +15,7 @@
 - 2N3904 Transistor
 - 1N4007 Diode
 - 100NF Cap
-- 2x 1uF Cap
+- 2x 1µF Cap
 - 1k Ohm Resistor
 - 3x AA Battery
 - 1 Battery Case
