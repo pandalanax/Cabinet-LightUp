@@ -37,5 +37,5 @@ Using the transistor alone didn't help to completely shut down the WS2812 strip.
 
 - [ ] add schematic
 - [ ] create pcb
-- [ ] decrease delays 
+
 
