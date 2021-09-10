@@ -2,10 +2,8 @@
 
 ![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/lightup.gif)
 
-
-|         | SLEEP         | ON    |
-|:-------------:|:-------------:| -----:|
-| Current Consumption     | 400 µA | ~78mA |
+Measured with INA219 Sensor
+![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/newplot.png)
 
 ## Components
 - WS2812 Strip with 30 LEDs
