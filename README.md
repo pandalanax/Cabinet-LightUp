@@ -29,6 +29,8 @@ The nanos voltage regulator uses a lot of energy, therefore i removed the regula
 ## Circuit
 Using the transistor alone didn't help to completely shut down the WS2812 strip. Found this helpful [thread](https://forum.pjrc.com/threads/24407-Strange-WS2812-NeoPixel-backfeed-current-FYIO) which suggested using a diode to eliminate the backfeeding problem through DATA channel.
 
+## Current Draw Measurement
+The current is measured with an external Arduino Nano and INA219 Breakout Board.
 ![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/newplot.png)
 
 # TODO
