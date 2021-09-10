@@ -2,8 +2,6 @@
 
 ![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/lightup.gif)
 
-Measured with INA219 Sensor
-![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/newplot.png)
 
 ## Components
 - WS2812 Strip with 30 LEDs
@@ -30,6 +28,9 @@ The nanos voltage regulator uses a lot of energy, therefore i removed the regula
 
 ## Circuit
 Using the transistor alone didn't help to completely shut down the WS2812 strip. Found this helpful [thread](https://forum.pjrc.com/threads/24407-Strange-WS2812-NeoPixel-backfeed-current-FYIO) which suggested using a diode to eliminate the backfeeding problem through DATA channel.
+
+Measured with INA219 Sensor
+![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/newplot.png)
 
 # TODO
 
