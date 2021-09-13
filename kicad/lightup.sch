@@ -1,0 +1,243 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MCP1700-3302E_TO92 U1
+U 1 1 613BA387
+P 4100 2300
+F 0 "U1" H 4100 2151 50  0000 C CNN
+F 1 "MCP1700-3302E_TO92" H 4100 2060 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 4100 2100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 4100 2300 50  0001 C CNN
+	1    4100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 613BBDC2
+P 4100 4100
+F 0 "Q1" H 4290 4146 50  0000 L CNN
+F 1 "2N3904" H 4290 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 4025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4100 4100 50  0001 L CNN
+	1    4100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 613BD1EE
+P 3750 4100
+F 0 "R1" V 3955 4100 50  0000 C CNN
+F 1 "R_US" V 3864 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3790 4090 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4007 D1
+U 1 1 613BD7CB
+P 4650 3450
+F 0 "D1" H 4650 3666 50  0000 C CNN
+F 1 "1N4007" H 4650 3350 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4650 3275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4650 3450 50  0001 C CNN
+	1    4650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 613BE365
+P 4600 2150
+F 0 "C2" H 4718 2196 50  0000 L CNN
+F 1 "1uF" H 4718 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4638 2000 50  0001 C CNN
+F 3 "~" H 4600 2150 50  0001 C CNN
+	1    4600 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 613C02DD
+P 3700 2150
+F 0 "C1" H 3818 2196 50  0000 L CNN
+F 1 "1uF" H 3818 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3738 2000 50  0001 C CNN
+F 3 "~" H 3700 2150 50  0001 C CNN
+	1    3700 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Reed SW1
+U 1 1 613C1CB5
+P 4650 3250
+F 0 "SW1" H 4650 3472 50  0000 C CNN
+F 1 "SW_Reed" H 4650 3381 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 4650 3250 50  0001 C CNN
+F 3 "~" H 4650 3250 50  0001 C CNN
+	1    4650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 613E294A
+P 4100 2000
+F 0 "#PWR0101" H 4100 1750 50  0001 C CNN
+F 1 "GND" H 4105 1827 50  0000 C CNN
+F 2 "" H 4100 2000 50  0001 C CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 613E3CA1
+P 5600 4850
+F 0 "#PWR0102" H 5600 4600 50  0001 C CNN
+F 1 "GND" H 5605 4677 50  0000 C CNN
+F 2 "" H 5600 4850 50  0001 C CNN
+F 3 "" H 5600 4850 50  0001 C CNN
+	1    5600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 613E485B
+P 4200 4300
+F 0 "#PWR0103" H 4200 4050 50  0001 C CNN
+F 1 "GND" H 4205 4127 50  0000 C CNN
+F 2 "" H 4200 4300 50  0001 C CNN
+F 3 "" H 4200 4300 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3450 4800 3450
+Wire Wire Line
+	5000 3750 3600 3750
+Wire Wire Line
+	3600 3750 3600 4100
+Wire Wire Line
+	5000 3250 4850 3250
+$Comp
+L power:GND #PWR0104
+U 1 1 613EC2BC
+P 4450 3250
+F 0 "#PWR0104" H 4450 3000 50  0001 C CNN
+F 1 "GND" H 4450 3100 50  0000 C CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+4V #PWR0106
+U 1 1 613EF089
+P 3600 2400
+F 0 "#PWR0106" H 3600 2250 50  0001 C CNN
+F 1 "+4V" H 3615 2573 50  0000 C CNN
+F 2 "" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2400 50  0001 C CNN
+	1    3600 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2400 3600 2300
+Wire Wire Line
+	3600 2300 3700 2300
+Wire Wire Line
+	4400 2300 4600 2300
+$Comp
+L power:GND #PWR0107
+U 1 1 613F0992
+P 4600 2000
+F 0 "#PWR0107" H 4600 1750 50  0001 C CNN
+F 1 "GND" H 4605 1827 50  0000 C CNN
+F 2 "" H 4600 2000 50  0001 C CNN
+F 3 "" H 4600 2000 50  0001 C CNN
+	1    4600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 613F0D9F
+P 3700 2000
+F 0 "#PWR0108" H 3700 1750 50  0001 C CNN
+F 1 "GND" H 3705 1827 50  0000 C CNN
+F 2 "" H 3700 2000 50  0001 C CNN
+F 3 "" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	-1   0    0    1   
+$EndComp
+Connection ~ 3700 2300
+Wire Wire Line
+	3700 2300 3800 2300
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 613E216E
+P 3600 3450
+F 0 "J1" H 3492 3125 50  0000 C CNN
+F 1 "WS2812" H 3492 3216 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 3600 3450 50  0001 C CNN
+F 3 "~" H 3600 3450 50  0001 C CNN
+	1    3600 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3450 3800 3450
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A1
+U 1 1 613B9011
+P 5500 3850
+F 0 "A1" H 5500 2761 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 5500 2670 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5500 3850 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 5500 3850 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2300 5700 2300
+Connection ~ 4600 2300
+$Comp
+L power:+4V #PWR0105
+U 1 1 6142518E
+P 4000 3300
+F 0 "#PWR0105" H 4000 3150 50  0001 C CNN
+F 1 "+4V" H 4015 3473 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3350 4000 3350
+Wire Wire Line
+	4000 3350 4000 3300
+Wire Wire Line
+	3800 3550 4200 3550
+Wire Wire Line
+	4200 3550 4200 3900
+Wire Wire Line
+	5700 2300 5700 2850
+Text Notes 6400 2900 0    79   ~ 0
+1. The reed Switch triggers INT0 on PIN CHANGE. \n
+Text Notes 6350 2600 0    197  ~ 39
+Notes:
+Text Notes 6400 3050 0    79   ~ 0
+2. The whole curcuit is powered by 3x AA batteries (4.5V)
+Text Notes 6400 3200 0    79   ~ 0
+3. Arduino Nano runs on Minicore with internal 8mHz oscillator
+$EndSCHEMATC
