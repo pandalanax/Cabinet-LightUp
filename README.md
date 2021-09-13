@@ -1,6 +1,6 @@
 # Cabinet-LightUp
 
-![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/lightup.gif)
+![photo of circuit](https://github.com/pandalanax/Cabinet-LightUp/blob/main/media/lightup.gif)
 
 
 ## Components
@@ -31,11 +31,11 @@ Using the transistor alone didn't help to completely shut down the WS2812 strip.
 
 ## Current Draw Measurement
 The current is measured with an external Arduino Nano and INA219 Breakout Board.
-![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/newplot.png)
+![photo of current draw](https://github.com/pandalanax/Cabinet-LightUp/blob/main/media/current_consumption.png)
 
 # TODO
 
-- [ ] add schematic
+- [x] add schematic
 - [ ] create pcb
 - [ ] upload hex file to flash via avrdude 
 - [ ] upload minicore settings to flash via avrdude
