@@ -36,7 +36,7 @@ The current is measured with an external Arduino Nano and INA219 Breakout Board.
 # TODO
 
 - [x] add schematic
-- [ ] create pcb
+- [x] create pcb
 - [ ] upload hex file to flash via avrdude 
 - [ ] upload minicore settings to flash via avrdude
 
