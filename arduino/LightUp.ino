@@ -1,9 +1,9 @@
 
 #include <FastLED.h>
 #include <avr/sleep.h>//this AVR library contains the methods
-#define REED_PIN    2// Pin connected to reed switch
-#define LED_PIN     5
-#define SWITCH_PIN  8
+#define REED_PIN    0// Pin connected to reed switch
+#define LED_PIN     2
+#define SWITCH_PIN  5
 #define NUM_LEDS    30
 #define BRIGHTNESS  64
 #define LED_TYPE    WS2811
